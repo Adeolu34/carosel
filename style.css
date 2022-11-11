@@ -1,0 +1,29 @@
+.img{
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+}
+.next-btn{
+    position: relative;
+}
+.right{
+    right: -20rem;
+    position: relative;
+    top: -25rem;
+}
+.left{
+    left: 70rem;
+    position: relative;
+    z-index: 1000;
+    top: -25rem;
+}
+.carol-wrapper{
+    width: 50vw;
+    margin: 0 auto;
+}
+.img{
+    display: none;
+}
+img .show{
+    display: block;
+}
