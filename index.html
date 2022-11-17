@@ -8,19 +8,17 @@
     <title>Carousel js</title>
 </head>
 <body>
-    <div class="carol-wrapper">
-        <div class="image-wrapper">
-            <img src="./image/Adidas-Harden-Vol.-4-'Question'-FV5598.jpg" alt="shoe pic" class="show">
-            <img src="./image/FV5598-2.jpg" alt="shoe pic" class="img">
-            <img src="./image/FV5598-3.jpg" alt="shoe pic" class="img">
-            <img src="./image/FV5598-4.jpg" alt="shoe pic" class="img">
-            <img src="./image/FV5598-5.jpg" alt="shoe pic" class="img">
-        
-        </div>
+    <div class="carousel" data-carousel>
+        <button class="carol-btn prev" data-carousel-button="prev"> &#8656;</button>
+        <button class="carol-btn next" data-carousel-button="next"> &#8658;</button>
+        <ul data-slides>
+            <li><img src="./image/Adidas-Harden-Vol.-4-'Question'-FV5598.jpg" alt="shoe pic" class="slide" data-active></li>
+            <li><img src="./image/FV5598-2.jpg" alt="shoe pic" class="slide"></li>
+            <li><img src="./image/FV5598-3.jpg" alt="shoe pic" class="slide"></li>
+            <li><img src="./image/FV5598-4.jpg" alt="shoe pic" class="slide"></li>
+            <li><img src="./image/FV5598-5.jpg" alt="shoe pic" class="slide"></li>
+        </ul>
     </div>
-    <div class="next-btn">
-        <img src="./image/icons8-chevron-left-50.png" alt="previous btn" class="right">
-        <img src="./image/icons8-forward-64.png" alt="next btn" class="left">
-    </div>
+    <script src="./script.js"></script>
 </body>
 </html>
