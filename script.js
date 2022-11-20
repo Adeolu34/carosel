@@ -1,4 +1,4 @@
-const delay = 3000; //ms
+const delay = 5000; //ms
 
 const slides = document.querySelector(".slides");
 const slidesCount = slides.childElementCount;
